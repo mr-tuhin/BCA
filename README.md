@@ -1,13 +1,13 @@
 #  CPU SCHEDULING
 A CPU scheduling algorithm is a method used by an operating system to determine which process to execute next on the CPU. It manages the allocation of CPU time to processes, optimizing system performance by ensuring fair and efficient resource utilization.
 
-1. FCFS Shaduling
-2. Priority Shaduling
-3. SJF Shaduling (primitive/non-primitive)
-4. Round Robin Shaduling
+1. FCFS SCHEDULING
+2. Priority SCHEDULING
+3. SJF SCHEDULING (primitive/non-primitive)
+4. Round Robin SCHEDULING
 
 
-## FCFS Shaduling
+## FCFS SCHEDULING
 
 First-Come, First-Served (FCFS) CPU scheduling is a non-preemptive scheduling algorithm where processes are executed in the order they arrive in the ready queue.
 
@@ -96,7 +96,7 @@ p2      2       9       20      11
 
 Average Waiting Time: 6.33
 ```
-## Priority Shaduling 
+## Priority SCHEDULING 
 Priority CPU Scheduling is an algorithm that assigns priority levels to processes, with lower values indicating higher priority, and schedules them based on their priority to optimize execution order.
 ## Algorithm
 ```C
@@ -174,7 +174,7 @@ P3   8              23             31
 Average Waiting Time: 10.50
 Average Turnaround Time: 18.25
 ```
-## SJF Shaduling
+## SJF SCHEDULING
 Shortest Job First (SJF) CPU scheduling selects the process with the shortest burst time for execution, minimizing waiting time.
 
 ### Algorithm:(Mode=primitive)
@@ -347,7 +347,7 @@ p1      0       9       13      4
 p3      0       9       22      13
 ```
 
-## Round Robin Shaduling (RR)
+## Round Robin SCHEDULING (RR)
 Round robin CPU scheduling is a time-sharing algorithm that allocates a fixed time quantum to each process in a circular manner.
 
 
